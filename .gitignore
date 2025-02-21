@@ -1,0 +1,16 @@
+# Ignore all build artifacts
+build/
+
+# Ignore secret files
+*.key
+*.pub
+secret.env
+
+# Ignore user-specificgit add .gitignore
+ editor settings
+.vscode/
+.idea/
+
+# If you have a .idx folder but want to track dev.nix only:
+.idx/
+!.idx/dev.nix
